@@ -11,7 +11,8 @@ Plugin 'gmarik/Vundle.vim'
 " ----- Making Vim look good ------------------------------------------
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " ----- Vim as a programmer's text editor -----------------------------
 Plugin 'scrooloose/nerdtree'
@@ -96,7 +97,7 @@ set t_Co=16
 colorscheme solarized
 
 
-" ----- bling/vim-airline settings -----
+" ----- vim-airline/vim-airline settings -----
 " Always show statusbar
 set laststatus=2
 
